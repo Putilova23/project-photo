@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--Connecting fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+
+    <!--Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kurale&display=swap" rel="stylesheet">
+
+    <!--Jost-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Kurale&display=swap" rel="stylesheet">
+
+    <!--Connect Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <header class="header">
+                <nav class="header_navigation">
+                    <a href="#" transition="aboutMe">Обо мне</a>
+                    <a href="#" transition="stepsWork">Этапы работы</a>
+                </nav>
+                <nav class="header_navigation">
+                    <a href="#" transition="portfolio">Портфолио</a>
+                    <a href="#" transition="reviews">Отзывы</a>
+                    <a href="#" transition="contacts">Контакты</a>
+                </nav>
+            </header>
+
+            <div class="infoBlock">
+                <div class="infoBlock_wrapper">
+                    <h1>Александра</h1>
+                    <p>фотограф</p>
+                    <button>Записаться на съёмку</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="aboutMe" class="aboutMe">
+        <div class="container">
+            <div class="aboutMe_wrapper">
+                <div class="body">
+                    <h1>ОБО МНЕ</h1>
+                    <p class="first_p">Привет! <br>
+                        Меня зовут Саша. <br>
+                        Я занимаюсь фотографией уже 3 года.</p>
+                    <p>
+                        К каждой фотосессии я подхожу с душой. <br>
+                        Раскрываю вашу красоту. <br>
+                        Создаю качественные снимки. 
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="./images/aboutMe.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stepsWork" class="stagesWork">
+        <div class="container">
+            <div class="stagesWork_wrapper">
+                <h1 class="stagesWork_title">ЭТАПЫ РАБОТЫ</h1>
+                <div class="steps">
+                    <div class="steps_item">
+                        <h1>1.Знакомство</h1>
+                        <p>Для записи нужно написать <br>
+                            мне в личные сообщения. <br>
+                            Я вышлю вам прайс и условия <br>
+                            для ознакомления. Далее подбираем <br>
+                            удобную дату.</p>
+                    </div>
+                    <div class="steps_item">
+                        <h1>2.Обсуждение деталей</h1>
+                        <p>Я провожу анкетирование, где вы <br>
+                            рассказываете о своих предпочтениях, <br>
+                            далее высылаю варианты студий, и мы <br>
+                            вместе бронируем зал.Также обсуждаем <br>
+                            ваш образ.</p>
+                    </div>
+                    <div class="steps_item">
+                        <h1>3.Съёмка</h1>
+                        <p>Мы встречаемся с вами за 5-10 минут <br>
+                            до начала. Я всегда направляю вас <br>
+                            и помогаю с позированием. Создаю <br>
+                            на съёмке комфортную обстановку.</p>
+                    </div>
+                    <div class="steps_item">
+                        <h1>4.Фото</h1>
+                        <p>Я скидываю вам исходные фотографии, <br>
+                            и жду, какие из них вам нужно <br>
+                            обработать. Фотографии готовы через <br>
+                            7 дней.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio_wrapper">
+                <h1 class="wrapper_title">ПОРТФОЛИО</h1>
+
+                <div class="wrapper_items">
+                    <img src="./images/portfolio1.png" alt="" class="item">
+                    <img src="./images/portfolio2.png" alt="" class="item">
+                    <img src="./images/portfolio3.png" alt="" class="item">
+                    <img src="./images/portfolio4.png" alt="" class="item">
+                </div>
+
+                <p class="wrapper_description">Увидеть больше моих работы вы можете, перейдя по кнопке ниже</p>
+
+                <button class="wrapper_more">больше...</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="reviews_wrapper">
+                <h1 class="reviews_title">ОТЗЫВЫ</h1>
+
+                <div class="reviews_swiper">
+                    <div class="reviews_wrapper">
+                        <img src="./images/reviews/review1.png" alt="" class="review_item">
+                        <img src="./images/reviews/review1.png" alt="" class="review_item">
+                        <img src="./images/reviews/review1.png" alt="" class="review_item">
+                        <img src="./images/reviews/review1.png" alt="" class="review_item">
+                    </div>
+                </div>
+
+                <div class="wrapper_bullets">
+                    <img src="./images/arrowIcon.png" alt="" class="arrow" id="review_prev_slide">
+
+                    <div class="bullets">
+                        <div class="bullet"></div>
+                    </div>
+
+                    <img src="./images/arrowIcon.png" alt="" class="arrow" id="review_next_slide">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts" class="contacts">
+        <div class="container">
+            <div class="contacts_wrapper">
+                <h1 class="contacts_title">КОНТАКТЫ</h1>
+
+                <div class="wrapper_buttons">
+                    <a href="#">WHATSAPP</a>
+                    <a href="#">TELEGRAM</a>
+                    <a href="#">VKONTAKTE</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
